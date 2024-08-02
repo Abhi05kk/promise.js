@@ -1,0 +1,18 @@
+#container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(109, 233, 233);
+    padding-inline: 10px;
+    overflow-y: auto;
+}
+
+.flags{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 1px solid black
+}
